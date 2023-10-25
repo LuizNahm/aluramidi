@@ -1,3 +1,19 @@
-alert("vá estudar nene");
-<button onclick="alert('Pom')" class="tecla tecla_pom">Pom</button>;
-<audio controls="" src="sounds/keyq.wav" id="som_tecla_pom"></audio>
+alert('Essa página contém vírus');
+
+function tocaSomPom(){document.querySelector('#som_tecla_pom').play();}
+
+document.querySelector('.tecla_pom').onclick = tocaSomPom;
+  
+function tocaSomclap(){document.querySelector('#som_tecla_clap').play();}
+
+document.querySelector('.tecla_clap').onclick = tocaSomclap;
+  
+function tocaSomtim()
+
+
+
+
+
+
+
+
